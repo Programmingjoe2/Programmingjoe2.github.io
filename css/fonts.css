@@ -1,0 +1,55 @@
+.description-text,
+.contact-detail {
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  margin: 0 0 9px 0;
+}
+
+.service-section-title {
+  font-family: 'Roboto Slab', serif;
+  font-size: 27px;
+  margin: 10px 0 40px 0;
+  color: #722323;
+}
+
+.sub-section-title,
+.qualification-title,
+.service-title {
+  font-family: 'Roboto Slab', serif;
+  font-size: 26px;
+  margin: 20px 0 24px 0;
+}
+.sub-section-title {
+  color: #722323;
+}
+
+.profile-name {
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+}
+.profile-role {
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+}
+
+.intro-text {
+  font-family: 'Roboto Slab', serif;
+  font-size: 40px;
+}
+
+.copyright-text,
+.navbar-option,
+.footer-link {
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  padding: 0 20px;
+}
+
+.branding {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 500;
+  font-size: 36px;
+}
+.branding-highlight {
+  color: #722323;
+}
