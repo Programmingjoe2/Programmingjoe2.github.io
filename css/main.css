@@ -78,9 +78,6 @@ svg {
 }
 
 .intro {
-  padding: 200px 0 160px 0;
-}
-.intro--small {
   padding: 160px 0 80px 0;
 }
 
@@ -108,7 +105,7 @@ svg {
 
 .row {
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .learn-more {
@@ -206,7 +203,7 @@ svg {
 
 @media only screen and (min-width: 790px) and (max-width : 1190px) {
   .content {
-    max-width: 960px;
+    max-width: 900px;
   }
 
   .qualification-column {
