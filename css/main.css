@@ -188,7 +188,7 @@ svg {
 }
 
 .contact-details p {
-  display: inline-block;
+  display: inline;
   line-height: 30px;
 }
 .contact-details i {
@@ -205,6 +205,10 @@ svg {
 }
 
 @media only screen and (min-width: 790px) and (max-width : 1190px) {
+  .content {
+    max-width: 960px;
+  }
+
   .qualification-column {
     width: 100%;
   }
