@@ -1,5 +1,6 @@
 .description-text,
-.contact-detail {
+.contact-detail,
+.qualification-description {
   font-family: 'Roboto Slab', serif;
   font-size: 18px;
   margin: 0 0 9px 0;
@@ -28,7 +29,8 @@
   font-family: 'Roboto Slab', serif;
   font-size: 24px;
 }
-.profile-role {
+.profile-role,
+.learn-more {
   font-family: 'Roboto Slab', serif;
   font-size: 18px;
 }

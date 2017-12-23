@@ -69,6 +69,13 @@ svg {
   float: right;
   display: inline-block;
 }
+.contact-option {
+  border: 2px solid #722323;
+  border-radius: 4px;
+  line-height: 22px;
+  padding: 9px 11px;
+  margin-top: 28px;
+}
 
 .intro {
   padding: 200px 0 160px 0;
@@ -79,21 +86,29 @@ svg {
 
 .specialties {
   margin: 30px 0 50px 0;
-  display: flex;
+  display: block;
 }
 .specialty {
-  width: 100%;
+  width: 50%;
   margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
 }
 .specialty div {
   padding: 0px 30px;
   margin-left: auto;
   margin-right: auto;
-  display: table;
+  display: block;
 }
 .specialty-description {
   text-align: center;
   margin-bottom: 30px;
+  flex-grow: 1;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 40px;
 }
 
 .learn-more {
@@ -189,17 +204,13 @@ svg {
   margin: 50px 0 50px 0;
 }
 
-@media only screen and (min-width: 579px) and (max-width : 1190px) {
+@media only screen and (min-width: 790px) and (max-width : 1190px) {
   .qualification-column {
     width: 100%;
   }
-  .qualification-container {
-    margin: auto;
-    width: 340px;
-  }
   .qualification-columns {
     display: block;
-    padding: 0 60px;
+    padding: 0 0 0 60px;
   }
 
   .profile-description {
@@ -209,32 +220,14 @@ svg {
     width: 240px;
   }
 
-  .specialties {
-    margin: 30px 0 100px 0;
-    display: block;
-  }
-  .specialty {
-    width: 50%;
-    display: inline-block;
-  }
-
-  .row {
-    display: flex;
-    margin-bottom: 40px;
-  }
-
   .service-section-title {
     text-align: center;
   }
 }
 
-@media only screen and (max-width : 579px) {
+@media only screen and (max-width : 789px) {
   .qualification-column {
     width: 100%;
-  }
-  .qualification-container {
-    margin: auto;
-    width: 340px;
   }
   .qualification-columns {
     display: block;
@@ -245,22 +238,12 @@ svg {
     padding: 0;
   }
 
-  .specialties {
-    margin: 30px 0 100px 0;
-    display: block;
-  }
-  .specialty {
-    width: 100%;
-    display: inline-block;
-  }
-
   .photo-column {
     margin: 0 auto 40px auto;
     display: block;
   }
 
   .description-column {
-    display: block;
     width: 100%;
   }
 
