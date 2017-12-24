@@ -43,6 +43,8 @@ svg {
   top: 0px;
 }
 .navbar-scrolled {
+  -moz-box-shadow: 0px 2px 3px 0px rgba(166, 166, 166, 0.35);
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(166, 166, 166, 0.35);
   box-shadow: 0px 2px 3px 0px rgba(166, 166, 166, 0.35);
 }
 .content {
@@ -208,6 +210,8 @@ svg {
 .hamburger-header {
   display: inline-block;
   width: 100%;
+  -moz-box-shadow: 0px 2px 3px 0px rgba(166, 166, 166, 0.35);
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(166, 166, 166, 0.35);
   box-shadow: 0px 2px 3px 0px rgba(166, 166, 166, 0.35);
 }
 #hamburger-menu {
