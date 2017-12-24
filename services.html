@@ -23,16 +23,44 @@
 <body>
   <div id="navbar">
     <div class="navbar-branding">
-      <a href="index.html"><p class="branding"><span class="branding-highlight">Alan Czepil</span> Law</p></a>
+      <a href="index.html">
+        <p class="branding-ac"><span class="branding-highlight">AC</span> Law</p>
+        <p class="branding"><span class="branding-highlight">Alan Czepil</span> Law</p>
+      </a>
     </div>
     <div class="navbar-options">
-      <div class="navbar-option">
+      <div id="hamburger-lines" class="navbar-option" onclick="showHamburger()">
+        <p class="navbar-text"><i class="fas fa-bars"></i></p>
+      </div>
+      <div class="navbar-item navbar-option">
         <a href="contact.html"><p class="contact-option navbar-text">Contact</p></a>
       </div>
-      <div class="navbar-option">
+      <div class="navbar-item navbar-option">
         <a href="services.html"><p class="navbar-text">Services</p></a>
       </div>
     </div>
+  </div>
+
+  <div id="hamburger-menu">
+    <div class="hamburger-header">
+      <div class="navbar-branding">
+        <a href="index.html">
+          <p class="branding-ac"><span class="branding-highlight">AC</span> Law</p>
+          <p class="branding"><span class="branding-highlight">Alan Czepil</span> Law</p>
+        </a>
+      </div>
+      <div id="hamburger-x" class="navbar-options" onclick="hideHamburger()">
+        <p class="navbar-option"><i class="fas fa-times"></i></p>
+      </div>
+    </div>
+    <div class="hamburger-option">
+      <a href="services.html"><p class="hamburger-text">Services</p></a>
+    </div>
+    <div class="horiz-line"></div>
+    <div class="hamburger-option">
+      <a href="contact.html"><p class="hamburger-text">Contact</p></a>
+    </div>
+    <div class="horiz-line"></div>
   </div>
 
   <div class="content">
@@ -48,18 +76,18 @@
 
         <div class="service">
           <p class="service-title">Creating your Business</p>
-          <p class="service-description description-text">I will advise you on starting your business and set up your corporation, joint venture, or
-          partnership.  I can also draft related agreements to support your business including shareholder
+          <p class="service-description description-text">We will advise you on starting your business and set up your corporation, joint venture, or
+          partnership. We can also draft related agreements to support your business including shareholder
           agreements, employment contracts, and leases.</p>
         </div>
         <div class="service">
           <p class="service-title">Maintaining your Business</p>
-          <p class="service-description description-text">I will maintain your corporate records and complete the annual Corporate Registry filings as well
+          <p class="service-description description-text">We will maintain your corporate records and complete the annual Corporate Registry filings as well
           as prepare annual dividend resolutions in accordance with your accountants instructions.</p>
         </div>
         <div class="service">
           <p class="service-title">Reorganization and Succession Planning</p>
-          <p id="commercial" class="service-description description-text">I will work with you tax adviser to carry out corporate steps for tax driven reorganizations and
+          <p id="commercial" class="service-description description-text">We will work with you tax adviser to carry out corporate steps for tax driven reorganizations and
           succession planning.</p>
         </div>
       </div>
@@ -71,26 +99,26 @@
 
         <div class="service">
           <p class="service-title">Buying and Selling</p>
-          <p class="service-description description-text">I will provide reliable legal advice, appropriate due diligence and carefully prepared agreements
+          <p class="service-description description-text">We will provide reliable legal advice, appropriate due diligence and carefully prepared agreements
           and supporting documentation in order to ensure a smooth and successful sale or purchase of a
           business, whether by way of an asset or share purchase.</p>
         </div>
         <div class="service">
           <p class="service-title">Agreements</p>
-          <p class="service-description description-text">Commercial law has a significant impact on most aspects of running a business.  Carefully
+          <p class="service-description description-text">Commercial law has a significant impact on most aspects of running a business. Carefully
           drafted written agreements, such as employment agreements, help to avoid misunderstandings
           down the road.</p>
         </div>
         <div class="service">
           <p class="service-title">Financing</p>
-          <p class="service-description description-text">I can help you interpret and negotiate bank financing arrangements and to properly structure,
+          <p class="service-description description-text">We can help you interpret and negotiate bank financing arrangements and to properly structure,
           document and securitize credit arrangements.</p>
         </div>
         <div class="service">
           <p class="service-title">Commercial Real Estate</p>
           <p id="wills" class="service-description description-text">Buying and selling commercial real estate involves special risks that don’t arise, for example, on
-          the purchase or sale of a home.  I can help you to draft purchase and sale agreements and
-          facilitate closings.  I can also assist with leasing arrangements and preparation of leases.</p>
+          the purchase or sale of a home. We can help you to draft purchase and sale agreements and
+          facilitate closings. We can also assist with leasing arrangements and preparation of leases.</p>
         </div>
       </div>
 
@@ -101,14 +129,14 @@
 
         <div class="service">
           <p class="service-title">Wills</p>
-          <p class="service-description description-text">A Will is an essential part of any estate plan.  I can help you develop a scheme of distribution that
+          <p class="service-description description-text">A Will is an essential part of any estate plan. We can help you develop a scheme of distribution that
           will ensure your intentions are carried out and that satisfies the legal and moral obligations that
           the law imposes on testators, so as to minimize the risk of challenges to your Will.</p>
         </div>
         <div class="service">
           <p class="service-title">Powers of Attorney</p>
           <p class="service-description description-text">A power of attorney is a document which grants conduct of the grantors financial affairs and/or
-          property to a trusted individual such as a spouse.  They are an important tool in planning for
+          property to a trusted individual such as a spouse. They are an important tool in planning for
           incapacity and can be limited or broad in their scope, depending on your needs.</p>
         </div>
         <div class="service">
@@ -119,9 +147,9 @@
         </div>
         <div class="service">
           <p class="service-title">Administration</p>
-          <p id="realestate" class="service-description description-text">The legal position of an executor or administrator can be perilous.  We regularly act for clients to
+          <p id="realestate" class="service-description description-text">The legal position of an executor or administrator can be perilous. We regularly act for clients to
           obtain grant of letters probate or letters of administration and assist in the administration of
-          estates through to distribution.  I can also help to resolve disputes that can and often do arise over
+          estates through to distribution. We can also help to resolve disputes that can and often do arise over
           the adequacy or interpretation of a Will or in the administration of an estate.</p>
         </div>
       </div>
@@ -134,7 +162,7 @@
         <div class="service">
           <p class="service-title">Real Estate</p>
           <p class="service-description description-text">We can assist you with the purchase and sale of your home, farm or vacant property to ensure that
-          the transaction closes smoothly and efficiently.  We can also assist you with mortgage financing
+          the transaction closes smoothly and efficiently. We can also assist you with mortgage financing
           or refinancing of your present home.</p>
         </div>
       </div>

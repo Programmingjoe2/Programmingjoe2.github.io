@@ -23,16 +23,44 @@
 <body>
   <div id="navbar">
     <div class="navbar-branding">
-      <a href="index.html"><p class="branding"><span class="branding-highlight">Alan Czepil</span> Law</p></a>
+      <a href="index.html">
+        <p class="branding-ac"><span class="branding-highlight">AC</span> Law</p>
+        <p class="branding"><span class="branding-highlight">Alan Czepil</span> Law</p>
+      </a>
     </div>
     <div class="navbar-options">
-      <div class="navbar-option">
+      <div id="hamburger-lines" class="navbar-option" onclick="showHamburger()">
+        <p class="navbar-text"><i class="fas fa-bars"></i></p>
+      </div>
+      <div class="navbar-item navbar-option">
         <a href="contact.html"><p class="contact-option navbar-text">Contact</p></a>
       </div>
-      <div class="navbar-option">
+      <div class="navbar-item navbar-option">
         <a href="services.html"><p class="navbar-text">Services</p></a>
       </div>
     </div>
+  </div>
+
+  <div id="hamburger-menu">
+    <div class="hamburger-header">
+      <div class="navbar-branding">
+        <a href="index.html">
+          <p class="branding-ac"><span class="branding-highlight">AC</span> Law</p>
+          <p class="branding"><span class="branding-highlight">Alan Czepil</span> Law</p>
+        </a>
+      </div>
+      <div id="hamburger-x" class="navbar-options" onclick="hideHamburger()">
+        <p class="navbar-option"><i class="fas fa-times"></i></p>
+      </div>
+    </div>
+    <div class="hamburger-option">
+      <a href="services.html"><p class="hamburger-text">Services</p></a>
+    </div>
+    <div class="horiz-line"></div>
+    <div class="hamburger-option">
+      <a href="contact.html"><p class="hamburger-text">Contact</p></a>
+    </div>
+    <div class="horiz-line"></div>
   </div>
 
   <div class="content">

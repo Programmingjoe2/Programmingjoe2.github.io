@@ -49,7 +49,7 @@ svg {
   width: calc(90% - 90px);
   max-width: 1200px;
   margin: auto;
-  padding: 0 45px 130px 45px;
+  padding: 0 45px 100px 45px;
   background-color: #F4F4F4;
 }
 
@@ -57,7 +57,8 @@ svg {
   float: left;
   line-height: 100px;
 }
-.branding {
+.branding,
+.branding-ac {
   padding: 0 30px;
 }
 
@@ -233,7 +234,7 @@ svg {
   color: #722323;
 }
 
-.branding-highlight-ac {
+.branding-ac {
   display: none;
 }
 
@@ -264,7 +265,8 @@ svg {
 
 @media only screen and (max-width : 789px) {
   .content {
-    width: calc(100% - 90px);
+    width: calc(100% - 60px);
+    padding: 0 30px 80px 30px;
   }
   .row {
     display: block;
@@ -279,6 +281,17 @@ svg {
 
   .profile-description {
     padding: 0;
+  }
+
+  .footer {
+    padding-top: 20px;
+  }
+  .copyright-text {
+    line-height: 32px;
+  }
+
+  .specialty div {
+    padding: 0px;
   }
 
   .photo-column {
@@ -318,22 +331,20 @@ svg {
   .qualification-container {
     min-width: 0px;
   }
-}
 
-@media only screen and (max-width : 600px) {
-  #hamburger-lines {
-    display: block;
-  }
   .navbar-item {
     display: none;
   }
-}
-
-@media only screen (max-width: 395px) {
-  .branding-highlight-ac {
+  #hamburger-lines {
     display: inline-block;
   }
-  .branding-highlight {
+}
+
+@media only screen and (max-width: 395px) {
+  .branding-ac {
+    display: inline-block;
+  }
+  .branding {
     display: none;
   }
 
