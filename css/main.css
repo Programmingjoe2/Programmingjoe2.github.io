@@ -216,6 +216,7 @@ svg {
   background-color: white;
   z-index: 1;
   left: 100vw;
+  display: none;
   position: absolute;
 }
 .hamburger-option p {
