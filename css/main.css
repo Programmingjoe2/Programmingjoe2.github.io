@@ -46,7 +46,7 @@ svg {
   box-shadow: 0px 2px 3px 0px rgba(166, 166, 166, 0.35);
 }
 .content {
-  width: calc(100% - 90px);
+  width: calc(90% - 90px);
   max-width: 1200px;
   margin: auto;
   padding: 0 45px 130px 45px;
@@ -201,6 +201,42 @@ svg {
   margin: 50px 0 50px 0;
 }
 
+#hamburger-lines {
+  display: none;
+}
+.hamburger-header {
+  display: inline-block;
+  width: 100%;
+  box-shadow: 0px 2px 3px 0px rgba(166, 166, 166, 0.35);
+}
+#hamburger-menu {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  z-index: 1;
+  left: 100vw;
+  position: absolute;
+}
+.hamburger-option p {
+  height: 80px;
+  text-align: center;
+  width: 100vw;
+  line-height: 80px;
+}
+.body-no-scroll {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.branding-highlight-ac,
+.branding-highlight {
+  color: #722323;
+}
+
+.branding-highlight-ac {
+  display: none;
+}
+
 @media only screen and (min-width: 790px) and (max-width : 1190px) {
   .content {
     max-width: 900px;
@@ -227,6 +263,12 @@ svg {
 }
 
 @media only screen and (max-width : 789px) {
+  .content {
+    width: calc(100% - 90px);
+  }
+  .row {
+    display: block;
+  }
   .qualification-column {
     width: 100%;
   }
@@ -261,11 +303,41 @@ svg {
     margin-bottom: 50px;
   }
 
+  .specialty {
+    width: 100%;
+  }
+
   .map {
     width: 100%;
     display: block;
   }
   .maps {
     margin: 50px 0 50px 0;
+  }
+
+  .qualification-container {
+    min-width: 0px;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #hamburger-lines {
+    display: block;
+  }
+  .navbar-item {
+    display: none;
+  }
+}
+
+@media only screen (max-width: 395px) {
+  .branding-highlight-ac {
+    display: inline-block;
+  }
+  .branding-highlight {
+    display: none;
+  }
+
+  .profile-picture {
+    width: 100%;
   }
 }

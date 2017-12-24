@@ -30,7 +30,8 @@
   font-size: 24px;
 }
 .profile-role,
-.learn-more {
+.learn-more,
+.hamburger-text {
   font-family: 'Roboto Slab', serif;
   font-size: 18px;
 }
@@ -55,7 +56,4 @@
   font-family: 'Roboto Slab', serif;
   font-weight: 500;
   font-size: 36px;
-}
-.branding-highlight {
-  color: #722323;
 }
